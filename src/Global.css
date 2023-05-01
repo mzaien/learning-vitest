@@ -1,0 +1,44 @@
+:root {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: cadetblue;
+  color: azure;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+footer {
+  text-align: center;
+  margin-block: 2rem;
+}
+
+nav > ol {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 2px solid white;
+  border-radius: 12px;
+  padding: 0.5rem;
+}
+
+section {
+  line-height: 1.8;
+}
+
+code {
+  background-color: gray;
+  padding: 0.4rem;
+  margin-inline: 0.2rem;
+  border-radius: 8px;
+}
+
+article{
+  line-height: 1.8rem;
+}
+.container{
+  text-align:center;
+}
